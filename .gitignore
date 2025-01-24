@@ -1,0 +1,24 @@
+# Environment variables
+.env
+*.env.local
+
+# Service account keys
+*.json
+!package.json
+!package-lock.json
+
+# Node modules
+node_modules/
+
+# Debug files
+debug/
+
+# OS files
+.DS_Store
+Thumbs.db 
+venv
+build
+captures
+data
+debug_visualization.mp4
+dist
