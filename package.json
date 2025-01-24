@@ -32,19 +32,11 @@
     "productName": "Chicory",
     "mac": {
       "category": "public.app-category.productivity",
-      "hardenRuntime": true,
-      "gatekeeperAssess": false,
-      "entitlements": "build/entitlements.mac.plist",
-      "entitlementsInherit": "build/entitlements.mac.plist",
       "target": [
         "dmg",
         "zip"
       ]
     },
-    "dmg": {
-      "sign": false
-    },
-    "afterSign": "scripts/notarize.js",
     "directories": {
       "output": "dist",
       "buildResources": "build"
